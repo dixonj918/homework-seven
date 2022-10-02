@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+  }
+
+  .site-container{
+    max-width: 979px;
+    // background-color:aqua;
+    margin: 0 auto;
+  }
+
+  @font-face {
+    font-family: gill-sans;
+    src: url(../fonts/GillSans.ttc);
+  }
+
+  @font-face {
+    font-family: proxima;
+    src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+  }
+
+  @media only screen and(max-width:1000px) {
+    .offerWrappers{
+        margin: 0 auto;
+    }
+
+    .blogWrapper{
+        margin: 0 auto;
+        flex-direction: column;
+        max-width: 500px;
+        
+        .wrapperDate{
+            margin-bottom: 10px;
+        }
+    }
+
+    .heroContainer{
+        img{
+            width: 50%;
+        }
+    }
+}
